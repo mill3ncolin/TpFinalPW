@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Questrial', sans-serif;
+}
+header{
+  float: left;
+  width: 100%;
+  background-color: white;   
+}
+.menu{
+  width: 100%;
+  height: auto;
+  background-color: crimson;
+  margin-top: 60px;
+}
+.menu li{
+display: inline-block;
+padding: 10px;
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+  
+}
+.menu a:hover{
+  color:black;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+
+}
+.logo{
+  float: left;
+  margin-right: 2%;
+  width: 10%;
+  
+}
+.submit img{
+  position: absolute;
+  left: 60.5%;
+  top:30px;
+  width: 20px;
+  height: 20px;
+  box-sizing: content-box;
+}
+input {
+  width: 30%;
+  height: 25px;
+  position: absolute;
+  left: 30%;
+  top: 27px;
+
+}
+.carrito{
+  position: absolute;
+  right: 3%;
+  top: 4%;
+  
+}
+
+
+.ImagenSlider{
+  width: 100%;
+}
+.pasos{
+  width: 30%;
+  float: left;
+  margin: 10px 1.5%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+ .pasos .number {
+  color:crimson;
+    border: 2px solid crimson;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px; 
+
+    
+}
+article .pasos{
+  height:200px;
+  justify-content: space-between;
+  
+}
+article.pasos h4 {
+  color: #5b5b5b;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 100;
+  text-align:center; 
+}
+h3{
+  text-align: center;
+  text-decoration:none;
+  font-size: 30px; 
+}
+section .partidos{
+  float: left;
+  width: 100%;
+}
+section.partidos article{
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.19);
+  align-items: left;
+  border-radius: 3px;
+    
+}
+section.partidos article h4{
+  color:black;
+  font-size: 15px;
+  text-align: left;
+  margin-left: 30px;
+
+}
+
+.imgPartidos{
+  clear: both;
+  height: 20%;
+  margin-left: 2%;
+  width: 50%;
+  display:block;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  
+}
+
