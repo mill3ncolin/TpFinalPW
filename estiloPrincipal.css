@@ -18,6 +18,7 @@ header{
 .menu li{
 display: inline-block;
 padding: 10px;
+margin-left:80px; 
 }
 .menu a{
   color: white;
@@ -61,8 +62,6 @@ input {
   top: 4%;
   
 }
-
-
 .ImagenSlider{
   width: 100%;
 }
@@ -106,36 +105,146 @@ h3{
   text-decoration:none;
   font-size: 30px; 
 }
-section .partidos{
-  float: left;
-  width: 100%;
+.container{
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 10px;
+  
 }
-section.partidos article{
-  position: relative;
+.partidos{
+  display: flexbox;
+  flex-flow: column;
+  columns: 3;
+  margin-top: 10px;  
+}
+
+.columna{
+  margin-bottom: 20px;
+  margin-left: 10px;
   padding: 10px;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid rgba(0, 0, 0, 0.19);
-  align-items: left;
-  border-radius: 3px;
+  padding-top: 15px;
+  border: 1px solid crimson;
+  -webkit-box-shadow: -5px 10px 10px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px 10px 10px -5px rgba(0,0,0,0.75);
+  box-shadow: -5px 10px 10px -5px rgba(0,0,0,0.75);
+  
+
+}
+article img{
+  width: 100%; 
+}
+.datoPartido {
+  text-align: right;
+  margin-right: 20px;
+  font-size: 18px;
+  margin-top: -80px;
+}
+.detalle{
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+ .mes{
+  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.dia{
+  font-size: 35px;
+  margin-left: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.botonCarrito img{
+width: 120px;
+height: auto;
+float:right;
+margin-right: 20px;
+margin-top: -20px;
+}
+button .botonCarrito{
+  border-radius: 100%;
+}
+.datoPartido ,.detalle ,.botonCarrito img{
+  align-items: flex-start;
+}
+.dia , .mes{
+  justify-content: flex-start;
+}
+.tarjeta{
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 1%;
+  
+  
+}
+.mediosPago{
+  display: flexbox;
+  flex-flow: column;
+  columns: 4;
+  position: absolute;
+  left: 9%;
+
     
 }
-section.partidos article h4{
-  color:black;
-  font-size: 15px;
-  text-align: left;
-  margin-left: 30px;
-
+.medios{
+  padding: 10px;
+  padding-top: 15px;
+  border: 2px solid gray;
+  justify-content: space-between;
+  width: 150px;
+  height: 150px;
+  
+  
+}
+.visa{
+margin-top: 30px;
+}
+.scroll {
+  position:fixed;
+  bottom: 10px;
+  right: 10px;
+  
+}
+.scroll img{
+  width: 40px;
+  height: 40px;
 }
 
-.imgPartidos{
-  clear: both;
-  height: 20%;
-  margin-left: 2%;
-  width: 50%;
-  display:block;
-  margin-bottom: 5px;
-  margin-top: 5px;
+footer{
+  background-color: crimson;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
   
+}
+.datos{
+width: 100%;
+height: auto;
+margin: 0 auto;
+}
+
+.footer{
+  display: flexbox;
+  flex-flow: column;
+  columns: 3;
+}
+.footer1{
+width:30%;
+margin: 5%;
+}
+.menuInferior{
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  padding: 5px;
+  color: white;
+}
+.menuInferior a:hover{
+padding: 5px;
+background-color: white;
+color: black;
+
 }
 
